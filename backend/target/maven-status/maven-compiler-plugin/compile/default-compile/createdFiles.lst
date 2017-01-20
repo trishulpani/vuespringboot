@@ -1,0 +1,3 @@
+com\appvizory\vuespring\VueSpringApplication.class
+com\appvizory\vuespring\controllers\UserController.class
+com\appvizory\vuespring\domain\User.class

@@ -15,7 +15,7 @@ public class UserController {
     @ResponseBody
     public User fetchUser(){
         User user = new User();
-        user.setUsername("Trishul Pani");
+        user.setUsername("Hello user ! This information came from the server.");
         return user;
     }
 }

@@ -1,7 +1,7 @@
 <template>
  <div class="helloServer">
   <p style="color:red">{{ username }}</p>
-  <p style="color:blue">{{ lastname }}</p>
+  <p style="color:blue">{{ someStaticData }}</p>
 
   <alert :show.sync="showTop" placement="top" duration="3000" type="danger" width="400px" dismissable>
     <span class="icon-info-circled alert-icon-float-left"></span>
@@ -26,7 +26,7 @@ export default {
   data () {
    return {
      username: this.fetchData(),
-     lastname: 'Mukherjee'
+     someStaticData: 'This is some static data'
    }
   },
   methods:{
